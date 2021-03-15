@@ -1,0 +1,47 @@
+section#about .overlay {
+  background-color: rgba(8, 10, 17, 0.95);
+}
+
+section#about .half-overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 130vh;
+}
+
+section#about .about-section {
+  width: 65%;
+  max-width: 900px;
+  height: 130vh;
+  margin: auto;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#about .about-section .about-body {
+  border: 1px solid white;
+  position: relative;
+  z-index: 1;
+}
+
+section#about .about-section .about-body .overlay {
+  background-color: rgba(8, 10, 17, 0.7);
+}
+
+section#about .about-section .about-body .about-content {
+  padding: 2em;
+}
+
+section#about .about-section .about-body .about-content p {
+  font-size: 1.25em;
+}
+/*# sourceMappingURL=about.css.map */
