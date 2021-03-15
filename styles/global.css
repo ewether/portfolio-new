@@ -1,0 +1,34 @@
+.overlay {
+  z-index: -1;
+  position: absolute;
+  background-color: rgba(5, 5, 15, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.half-overlay {
+  z-index: -1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 50%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+section {
+  height: 130vh;
+  background-color: #080a11;
+  z-index: 1;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: 400;
+}
+/*# sourceMappingURL=global.css.map */

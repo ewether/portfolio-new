@@ -1,0 +1,83 @@
+$base-spacing: 2em;
+
+section#about {
+
+  .overlay {
+    background-color: rgba(8, 10, 17, .95);
+  }
+
+  .half-overlay {
+    background-color: rgba(0, 0, 0, .35);
+    height: 130vh;
+  }
+
+  .about-section {
+    width: 65%;
+    max-width: 900px;
+    height: 130vh;
+    margin: auto;
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .about-body {
+      border: 1px solid white;
+      position: relative;
+      z-index: 1;
+
+      .overlay {
+        background-color: rgba(8, 10, 17, .7);
+      }
+
+      .about-content {
+        padding: $base-spacing;
+
+        p {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

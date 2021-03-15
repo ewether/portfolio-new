@@ -1,0 +1,177 @@
+button {
+  height: 3.5em;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: #080b12;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+body.index {
+  margin: 0;
+  font-family: "Fira Sans Condensed", sans-serif;
+  letter-spacing: 1.75px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+body.index .banner {
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+body.index .banner .banner-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4em;
+}
+
+body.index .banner .banner-nav .nav-header .nav-title {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+body.index .banner .banner-nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body.index .banner .banner-nav .nav-links li {
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+body.index .banner .banner-nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+body.index .banner .banner-nav .nav-links li a:hover {
+  color: gray;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+body.index .banner header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  height: 85vh;
+}
+
+body.index .banner header.header .intro h2 {
+  font-size: 6.5em;
+}
+
+body.index .banner header.header .intro h3 {
+  font-size: 3em;
+  font-weight: 200;
+  margin: 0;
+  padding-left: 3px;
+  line-height: .75;
+}
+
+body.index .banner .buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4em;
+}
+
+body.index .banner .buttons button {
+  height: 3.5em;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: #080b12;
+  height: 3.5em;
+  margin: 0.5em;
+}
+
+body.index .banner .buttons button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+body.index .banner .buttons button a {
+  font-size: 2em;
+}
+
+body.index .banner button:hover {
+  border: 1px solid gray;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+@-webkit-keyframes arrows {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 12%;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: 12%;
+  }
+  40% {
+    top: -12%;
+  }
+  50% {
+    top: 12%;
+  }
+  60% {
+    top: 0;
+  }
+  70% {
+    top: 12%;
+  }
+  80% {
+    top: -12%;
+  }
+  90% {
+    top: 12%;
+  }
+  100% {
+    top: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

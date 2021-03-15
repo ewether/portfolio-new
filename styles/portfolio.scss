@@ -1,0 +1,63 @@
+$base-spacing: 2em;
+
+section#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .overlay {
+    background-color: rgba(8, 10, 17, .95);
+  }
+
+  .half-overlay {
+    background-color: rgba(0, 0, 0, .35);
+    height: 130vh;
+  }
+
+  .portfolio-cards {
+    display: flex;
+    justify-content: center;
+    padding: $base-spacing;
+
+    .card {
+      height: 36em;
+      width: 25%;
+      max-width: 400px;
+      margin: 0 $base-spacing*1.5;
+      border: 1px solid white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: relative;
+      z-index: 1;
+
+      .overlay {
+        background-color: rgba(8, 10, 17, .8);
+      }
+
+      .description {
+        border-top: 1px solid white;
+        height: 7em;
+        line-height: 1.25;
+        padding: $base-spacing/2;
+        display: flex;
+        align-items: center;
+
+        p {
+          font-size: 1.25em;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

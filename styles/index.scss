@@ -1,0 +1,156 @@
+$base-spacing: 2em;
+// $accent-color: rgb(25, 37, 42);
+$main-font: 'Fira Sans Condensed', sans-serif;
+
+@mixin button {
+  height: 3.5em;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: rgba(8, 11, 18, 1);
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+    padding: $base-spacing/4;
+  }
+}
+
+button {
+  @include button;
+}
+
+body.index {
+  margin: 0;
+  font-family: $main-font;
+  letter-spacing: 1.75px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+
+  .banner {
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+
+    .banner-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 $base-spacing*2;
+
+      .nav-header {
+        .nav-title {
+          font-weight: normal;
+          font-size: 1.5em;
+        }
+      }
+
+      .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+          font-size: 1.5em;
+          list-style-type: none;
+          padding: 0 $base-spacing/2;
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
+
+          a:hover {
+            color: gray;
+            transition: all 0.15s ease-in-out;
+          }
+        }
+      }
+    }
+
+    header.header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+      height: 85vh;
+
+      .intro {
+
+        h2 {
+          font-size: 6.5em;
+        }
+
+        h3 {
+          font-size: 3em;
+          font-weight: 200;
+          margin: 0;
+          padding-left: 3px;
+          line-height: .75;
+        }
+      }
+    }
+
+    .buttons {
+      align-items: center;
+      margin-top: $base-spacing*2;
+
+      button {
+        @include button;
+        height: 3.5em;
+        margin: $base-spacing/4;
+
+        a {
+          font-size: 2em;
+        }
+
+        &:first-child {
+        }
+      }
+    }
+
+    button:hover {
+      border: 1px solid gray;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+}
+
+
+  @-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
