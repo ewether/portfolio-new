@@ -30,9 +30,18 @@ section#portfolio {
       justify-content: flex-end;
       position: relative;
       z-index: 1;
+      overflow: hidden;
 
       .overlay {
         background-color: rgba(8, 10, 17, .8);
+      }
+
+      .card-img {
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: inherit;
+        margin: 22px;
       }
 
       .description {
@@ -42,10 +51,21 @@ section#portfolio {
         padding: $base-spacing/2;
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+
+        h3 {
+          width: 100%;
+          font-weight: bold;
+        }
 
         p {
           font-size: 1.25em;
           margin: 0;
+        }
+
+        .github-link a {
+          text-decoration: none;
+          color: #fff;
         }
       }
     }
