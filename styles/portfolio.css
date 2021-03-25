@@ -76,11 +76,16 @@ section#portfolio .portfolio-cards .card .description {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #080a11;
 }
 
 section#portfolio .portfolio-cards .card .description h3 {
   width: 100%;
   font-weight: bold;
+  margin: 0 0 10px;
 }
 
 section#portfolio .portfolio-cards .card .description p {
@@ -91,5 +96,31 @@ section#portfolio .portfolio-cards .card .description p {
 section#portfolio .portfolio-cards .card .description .github-link a {
   text-decoration: none;
   color: #fff;
+}
+
+section#portfolio .portfolio-cards .card .description .github-link a:hover {
+  color: #06DB9B;
+}
+
+section#portfolio .portfolio-cards .card .description .languages {
+  text-align: left;
+  font-size: .75em;
+}
+
+section#portfolio .portfolio-cards .card:hover {
+  border: 1px solid #06DB9B;
+  cursor: pointer;
+}
+
+section#portfolio .portfolio-cards .card:hover .overlay {
+  z-index: 11;
+  background-color: #06DB9B;
+  opacity: .3;
+}
+
+section#portfolio .portfolio-cards .card:hover .description {
+  border-top: 1px solid #06DB9B;
+  z-index: 12;
+  background-color: #080a11;
 }
 /*# sourceMappingURL=portfolio.css.map */

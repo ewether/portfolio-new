@@ -36,6 +36,8 @@ section#portfolio {
         background-color: rgba(8, 10, 17, .8);
       }
 
+      
+
       .card-img {
         background-position: cover;
         background-repeat: no-repeat;
@@ -52,10 +54,13 @@ section#portfolio {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(8, 10, 17, 1);
 
         h3 {
           width: 100%;
           font-weight: bold;
+          margin: 0 0 10px;
         }
 
         p {
@@ -67,6 +72,36 @@ section#portfolio {
           text-decoration: none;
           color: #fff;
         }
+
+        .github-link a:hover {
+          color: #06DB9B;
+        }
+
+        .languages {
+          text-align: left;
+          font-size: .75em;
+        }
+      }
+    }
+
+    .card:hover {
+      border: 1px solid #06DB9B;
+      cursor: pointer;
+
+      .overlay {
+        // background-color: #01281C;
+        // opacity: .4;
+        z-index: 11;
+        // background-color: rgba(8, 10, 17, .6);
+        background-color: #06DB9B;
+        opacity: .3;
+        // transition: all 0.15s ease-in-out;
+      }
+
+      .description {
+        border-top: 1px solid #06DB9B;
+        z-index: 12;
+        background-color: rgba(8, 10, 17, 1);
       }
     }
   }
