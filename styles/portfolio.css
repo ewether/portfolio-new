@@ -79,6 +79,7 @@ section#portfolio .portfolio-cards .card .description {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #080a11;
 }
 
 section#portfolio .portfolio-cards .card .description h3 {
@@ -108,14 +109,18 @@ section#portfolio .portfolio-cards .card .description .languages {
 
 section#portfolio .portfolio-cards .card:hover {
   border: 1px solid #06DB9B;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
   cursor: pointer;
+}
+
+section#portfolio .portfolio-cards .card:hover .overlay {
+  z-index: 11;
+  background-color: #06DB9B;
+  opacity: .3;
 }
 
 section#portfolio .portfolio-cards .card:hover .description {
   border-top: 1px solid #06DB9B;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  z-index: 12;
+  background-color: #080a11;
 }
 /*# sourceMappingURL=portfolio.css.map */

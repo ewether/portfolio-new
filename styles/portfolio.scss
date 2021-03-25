@@ -36,11 +36,7 @@ section#portfolio {
         background-color: rgba(8, 10, 17, .8);
       }
 
-      // .overlay:hover {
-      //   background-color: #06DB9B;
-      //   opacity: .3;
-      //   z-index: 11;
-      // }
+      
 
       .card-img {
         background-position: cover;
@@ -59,6 +55,7 @@ section#portfolio {
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
+        background-color: rgba(8, 10, 17, 1);
 
         h3 {
           width: 100%;
@@ -89,17 +86,22 @@ section#portfolio {
 
     .card:hover {
       border: 1px solid #06DB9B;
-      transition: all 0.15s ease-in-out;
       cursor: pointer;
+
+      .overlay {
+        // background-color: #01281C;
+        // opacity: .4;
+        z-index: 11;
+        // background-color: rgba(8, 10, 17, .6);
+        background-color: #06DB9B;
+        opacity: .3;
+        // transition: all 0.15s ease-in-out;
+      }
 
       .description {
         border-top: 1px solid #06DB9B;
-        transition: all 0.15s ease-in-out;
-
-        h3 {
-          // color: #06DB9B;
-          // transition: all 0.15s ease-in-out;
-        }
+        z-index: 12;
+        background-color: rgba(8, 10, 17, 1);
       }
     }
   }
