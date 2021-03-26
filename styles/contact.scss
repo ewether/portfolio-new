@@ -32,6 +32,13 @@ section#contact {
         background-color: rgba(8, 10, 17, .7);
       }
 
+      .contact {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: 10px auto;
+      }
+
       .contact-link {
         color: white;
         text-decoration: none;

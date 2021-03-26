@@ -37,6 +37,17 @@ section#contact .contact-section .contact-body .overlay {
   background-color: rgba(8, 10, 17, 0.7);
 }
 
+section#contact .contact-section .contact-body .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  margin: 10px auto;
+}
+
 section#contact .contact-section .contact-body .contact-link {
   color: white;
   text-decoration: none;

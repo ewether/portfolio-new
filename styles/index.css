@@ -131,20 +131,6 @@ body.index .banner header.header .intro h3 {
   line-height: .75;
 }
 
-body.index .banner header.header .intro a {
-  font-size: 1.75em;
-  text-decoration: none;
-  color: #fff;
-  margin-top: 80px;
-  text-align: center;
-}
-
-body.index .banner header.header .intro a:hover {
-  color: #06DB9B;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
 body.index .banner .buttons {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -160,6 +146,16 @@ body.index .banner .buttons button {
   height: 3.5em;
   font-size: 1em;
   margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body.index .banner .buttons button a {
@@ -168,6 +164,30 @@ body.index .banner .buttons button a {
   font-weight: 100;
   font-size: 1.5em;
   padding: 0.5em;
+}
+
+body.index .banner .buttons .my-work-button {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.index .banner .buttons .my-work-button img {
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+body.index .banner .buttons a:hover {
+  color: #06DB9B;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 body.index .banner button:hover {
