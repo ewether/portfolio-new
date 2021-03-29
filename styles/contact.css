@@ -31,30 +31,54 @@ section#contact .contact-section .contact-body {
   border: 1px solid white;
   position: relative;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
 }
 
 section#contact .contact-section .contact-body .overlay {
   background-color: rgba(8, 10, 17, 0.7);
 }
 
-section#contact .contact-section .contact-body .contact {
+section#contact .contact-section .contact-body h2 {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+section#contact .contact-section .contact-body h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 250px;
+  width: 55%;
   margin: 10px auto;
-}
-
-section#contact .contact-section .contact-body .contact-link {
-  color: white;
-  text-decoration: none;
 }
 
 section#contact .contact-section .contact-body .contact-email a {
   color: #fff;
   text-decoration: none;
+}
+
+section#contact .contact-section .contact-body .contact-icon {
+  margin-right: 10px;
+}
+
+section#contact .contact-section .contact-body .contact-a-wrapper {
+  width: 55%;
+}
+
+section#contact .contact-section .contact-body .contact-a-wrapper .contact-link {
+  color: white;
+  text-decoration: none;
+  width: auto;
+  margin: auto 0;
 }
 /*# sourceMappingURL=contact.css.map */

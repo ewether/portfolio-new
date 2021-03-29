@@ -27,26 +27,46 @@ section#contact {
       border: 1px solid white;
       position: relative;
       z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
 
       .overlay {
         background-color: rgba(8, 10, 17, .7);
       }
-
-      .contact {
-        display: flex;
-        align-items: center;
-        width: 250px;
-        margin: 10px auto;
+      
+      h2 {
+        width: 100%;
+        margin-bottom: 40px;
       }
 
-      .contact-link {
-        color: white;
-        text-decoration: none;
+      h3 {
+        display: flex;
+        align-items: center;
+        width: 55%;
+        margin: 10px auto;
       }
 
       .contact-email a {
         color: #fff;
         text-decoration: none;
+      }
+
+      .contact-icon {
+        margin-right: 10px;
+      }
+
+      .contact-a-wrapper {
+        width: 55%;
+        // text-align: left;
+
+        .contact-link {
+          color: white;
+          text-decoration: none;
+          width: auto;
+          margin: auto 0;
+        }
       }
     }
   }
